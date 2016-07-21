@@ -125,11 +125,11 @@ p{
 }
 .header h1{
 	font-family: 'yekan',sans-serif;
-	font-size:50px;
+	font-size:60px;
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:#fff;
+	color: #3f3f3f;
 }
 
 .we-create{
@@ -142,8 +142,8 @@ p{
 .we-create li{
 	display:inline-block;
 	font-family: 'yekan',sans-serif;
-	font-size:14px;
-	color: #bcbcbc;
+	font-size:18px;
+	color: #8f8f8f;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 0 0 5px;
