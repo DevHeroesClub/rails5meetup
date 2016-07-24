@@ -12,6 +12,11 @@
 ---------------------------------*/
 .fl-lt {float:right;}
 .fl-rt {float:left;}
+.en {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 
 @font-face {
   font-family: 'yekan';
@@ -88,14 +93,14 @@ h2{
 	letter-spacing: -1px;
 	margin:0 0 15px 0;
 	text-align:center;
-	text-transform:uppercase;
+
 }
 h3{
 	font-family: 'yekan', sans-serif;
 	color:#222222;
 	font-size:16px;
 	margin:0 0 5px 0;
-	text-transform:uppercase;
+
 	font-weight:400;
 }
 h6{
@@ -119,9 +124,19 @@ p{
 	background:url(../../img/pat.png) right top repeat;
 	padding:280px 0;
 }
+
+.circle.av {
+  width: 700px;
+  height: 393px;
+  //border-radius: 100%;
+  //background: url(../../img/Cloud.jpg) center center no-repeat transparent;
+}
 .logo{
 	width:130px;
 	margin:0 auto 35px;
+}
+
+#service {
 }
 .header h1{
 	font-family: 'yekan',sans-serif;
@@ -171,7 +186,7 @@ color: #fff;
 	font-family: 'yekan', sans-serif;
 	display:inline-block;
 	border-radius:3px;
-	text-transform:uppercase;
+
 	line-height:25px;
 	margin-bottom:20px;
 	transition:all 0.3s ease-in-out;
@@ -212,7 +227,7 @@ color: #fff;
 .main-nav li a{
 	display:inline-block;
 	color:#222222;
-	text-transform:uppercase;
+
 	font-family: 'yekan', sans-serif;
 	text-decoration: none;
 	line-height:20px;
@@ -312,7 +327,7 @@ color: #fff;
 	padding:0 0 0 5px;
 	color:#b31217;
 	font-size:16px;
-	text-transform:uppercase;
+
 	font-family: 'yekan', sans-serif;
 	font-weight:400;
 	line-height:24px;
@@ -350,7 +365,7 @@ color: #fff;
 	line-height:20px;
 	color:#222222;
 	border-radius:4px;
-	text-transform:uppercase;
+
 	font-family: 'yekan', sans-serif;
 	background:#f7f7f7;
 	margin-bottom:5px;
@@ -420,10 +435,11 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../../img/section-bg1.jpg) center center no-repeat;
-	background-size:cover;
-	padding:55px 0;
-	text-align:center;
+  //background:url(../../img/section-bg1.jpg) center center no-repeat;
+  background-size:cover;
+  text-align:center;
+  padding: 0  !important;
+  height: 485px;
 }
 .client-part-haead{
 	color:#fdfdfd;
@@ -620,7 +636,7 @@ border: 2px solid #fff;
 	font-weight:700;
 	padding:0;
 	margin:20px 0 70px;
-	text-transform:uppercase;
+
 	font-size:42px;
 	color:#fff;
 }
@@ -741,7 +757,7 @@ border: 2px solid #fff;
 	border-radius:4px;
 	color:#ffffff;
 	font-size:14px;
-	text-transform:uppercase;
+
 	font-family: 'yekan', sans-serif;
 	font-weight:400;
 	border:0px;
